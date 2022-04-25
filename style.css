@@ -1,0 +1,152 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	max-width: 1340px;
+	margin: 0 auto;
+	
+}
+/*-----------шапка------------*/
+header {
+	
+}
+.header__block {
+	
+}
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 46px 0 25px;
+	background-color: transparent;
+	/*position: fixed;
+	width: 100%;
+	height: 95px;*/
+}
+.contacts {
+	display: flex;
+	align-items: center;
+}
+.contacts__item1 {
+	margin-right: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.contacts__item2 {
+	margin-right: 10px;
+}
+/*-----------две карточки----------*/
+.main {
+	display: flex;
+	position: relative;
+}
+.offer {
+	max-width: 823px;
+	position: relative;
+	z-index: 2;
+	background-color: #ffffff;
+	height: 100vh;
+}
+.offer__title {
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 100%;
+	width: 633px;
+	margin-top: 175px;
+	margin-bottom: 30px;
+}
+.offer__title span {
+	color: #3F70DA;
+}
+.offer__text {
+	font-weight: 500;
+	font-size: 25px;
+	Line-height: 32px;
+	width: 570px;
+	margin-bottom: 80px;
+}
+.stat {
+	display: flex;
+	
+}
+.stat__card {
+	width: 150px;
+	margin-right: 65px;
+}
+
+.client {
+	display: flex;
+}
+.stat__number {
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 100%;
+	color: #3F70DA;
+}
+.stat__text {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 16px;
+}
+.form {
+	background-color: #3F70DA;
+	width: 40vw;
+}
+.form-card {
+	
+	width: 433px;
+	height: 640px;
+	padding: 60px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	border: 1px solid red;
+	position: relative;
+	z-index: 2;
+}
+.car {
+	position: absolute;
+	top: 154px;
+	left: 723px;
+	z-index: 10;
+}
+
